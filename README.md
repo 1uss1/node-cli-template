@@ -2,6 +2,9 @@
 
 Template for building a [Node.js](https://nodejs.org/en) CLI tool. This was made in order to reduce the time it takes to setup a new Node.js CLI project with common libraries, tests, CI, etc. so you can **immediately** start being productive.
 
+[![build](https://github.com/1uss1/node-cli-template/actions/workflows/build.yml/badge.svg)](https://github.com/1uss1/node-cli-template/actions/workflows/build.yml)
+[![tests](https://github.com/1uss1/node-cli-template/actions/workflows/test.yml/badge.svg)](https://github.com/1uss1/node-cli-template/actions/workflows/test.yml)
+
 ## Contents
 
 - [x] TypeScript

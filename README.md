@@ -22,7 +22,7 @@ npm ci
 
 You are good to go!
 
-# Building a SEA [(Single Executable Application)](https://nodejs.org/api/single-executable-applications.html)
+## Building a SEA [(Single Executable Application)](https://nodejs.org/api/single-executable-applications.html)
 
 To build the executable, run the command:
 

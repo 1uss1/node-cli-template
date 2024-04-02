@@ -1,0 +1,14 @@
+name: "setup"
+
+runs:
+  using: "composite"
+  steps:
+    - name: "setup node"
+      uses: actions/setup-node@v4
+      with:
+        node-version-file: ".nvmrc"
+        cache: "npm"
+        cache-dependency-path: "**/package-lock.json"
+    - name: "install dependencies"
+      shell: bash
+      run: npm ci

@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.production.json",
+  "include": ["src/**/*.ts", "test/**/*.ts", "scripts/**/*.ts", "src/commands/interactive.ts"],
+  "compilerOptions": { "sourceMap": true }
+}

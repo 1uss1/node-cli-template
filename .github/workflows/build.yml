@@ -1,0 +1,16 @@
+name: "build"
+
+on:
+  - pull_request
+  - push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "checkout repository"
+        uses: actions/checkout@v4
+      - name: "setup"
+        uses: ./.github/actions/setup
+      - name: "run build"
+        run: npm run build
